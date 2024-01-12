@@ -11,6 +11,21 @@
   <body>
     TEST
 
+    <section aria-labelledby="requirements">
+      <h2>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Installable_PWAs#requirements">Requirements</a>
+      </h2>
+      <div class="section-content">
+        <p>To make our example application installable, the following things are needed:</p>
+        <ul>
+          <li>A web application manifest, with the <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable#the_web_app_manifest">correct members filled in</a>.</li>
+          <li>The website to be served from a secure (HTTPS) domain.</li>
+          <li>An icon to represent the app on the device.</li>
+          <li>A <a href="https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API">service worker</a> registered, to allow the app to work offline.</li>
+        </ul>
+      </div>
+    </section>
+
     <button id="install" hidden>Install PWA</button>
     <script>
 
