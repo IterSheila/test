@@ -8,8 +8,7 @@
       "type": "image/x-icon"
     }
   ],
-  "id": "/?utm_source=web_app_manifest",
-  "start_url": "/?utm_source=web_app_manifest",
+  "start_url": "/",
   "display": "fullscreen",
   "theme_color": "#000000",
   "background_color": "#ffffff",
