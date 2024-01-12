@@ -8,11 +8,8 @@
       "type": "image/x-icon"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest",
+  "display": "fullscreen",
   "theme_color": "#000000",
   "background_color": "#ffffff",
-  "permissions": [
-    "bookmarks"
-  ]
 }
