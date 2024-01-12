@@ -66,12 +66,13 @@ self.addEventListener('install', (event) => {
   );
 });
 
-// self.addEventListener('fetch', (event) => {
-//   event.respondWith(
-//     cacheFirst({
-//       request: event.request,
-//       preloadResponsePromise: event.preloadResponse,
-//       fallbackUrl: './gallery/myLittleVader.jpg',
-//     })
-//   );
-// });
+// https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/fetch_event
+self.addEventListener('fetch', (event) => {
+  // event.respondWith(
+  //   cacheFirst({
+  //     request: event.request,
+  //     preloadResponsePromise: event.preloadResponse,
+  //     fallbackUrl: './gallery/myLittleVader.jpg',
+  //   })
+  // );
+});
