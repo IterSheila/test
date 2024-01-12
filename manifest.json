@@ -16,7 +16,7 @@
   "screenshots" : [
     {
       "src": "screenshot1.png",
-      "sizes": "1280x720",
+      "sizes": "1170x2532",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Homescreen of Test App"
